@@ -80,13 +80,12 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <Maor>
-          <DiDocker size='4rem' />
-          <DiGithubBadge size='4rem' />
+          <DiDocker size='4rem' /> <DiGithubBadge size='4rem' />
         </Maor>
         <ListContainer>
-          <ListTitle>Devops</ListTitle>
+          <ListTitle>DevOps</ListTitle>
           <ListParagraph>
-            Docker <br/>
+            Docker <br />
             Github
           </ListParagraph>
         </ListContainer>
