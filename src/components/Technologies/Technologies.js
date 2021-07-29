@@ -54,14 +54,13 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <Maor>
-          <DiJava size='4rem' /> <DiGo size='4rem' />
-          <DiNodejs size='4rem' />
+        <DiNodejs size='4rem' /> <DiJava size='4rem' /> <DiGo size='4rem' />
         </Maor>
         <ListContainer>
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
-            Expirience with <br />
-            Node, Java, Go
+            Node, Java, Go <br />
+            Github
           </ListParagraph>
         </ListContainer>
       </ListItem>
