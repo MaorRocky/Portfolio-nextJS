@@ -5,7 +5,7 @@ import {
   DiSwift,
   DiReact,
   DiJava,
-  DiGo,
+  DiPython,
   DiNodejs,
   DiApple,
   DiMongodb,
@@ -31,62 +31,41 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>list of my tech</SectionText>
+    <SectionText>list of my preferred technologies</SectionText>
     <List>
       <ListItem>
-        <Maor>
-          <DiApple size='4rem' /> <DiSwift size='4rem' />
-        </Maor>
+        <DiSwift size='4rem'/>
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
           <ListParagraph>iOS and Flutter</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiReact size='4rem' />
+        <DiReact size='4rem'/>
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
-          <ListParagraph>
-            Expirience with <br />
-            React.js
-          </ListParagraph>
+          <ListParagraph>React</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <Maor>
-        <DiNodejs size='4rem' /> <DiJava size='4rem' /> <DiGo size='4rem' />
-        </Maor>
+        <DiNodejs size='4rem'/>
         <ListContainer>
           <ListTitle>Backend</ListTitle>
-          <ListParagraph>
-            Node, Java, Go <br />
-            Github
-          </ListParagraph>
+          <ListParagraph>NodeJS,Java,Python</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <Maor>
-          <DiMongodb size='4rem' />
-          <DiMysql size='4rem' />
-        </Maor>
+        <DiMysql size='4rem'/>
         <ListContainer>
-          <ListTitle>DataBases</ListTitle>
-          <ListParagraph>
-            MySql <br />
-            MongoDB
-          </ListParagraph>
+          <ListTitle>Databases</ListTitle>
+          <ListParagraph>MySQL,MongoDB</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <Maor>
-          <DiDocker size='4rem' /> <DiGithubBadge size='4rem' />
-        </Maor>
+        <DiDocker size='4rem'/>
         <ListContainer>
           <ListTitle>DevOps</ListTitle>
-          <ListParagraph>
-            Docker <br />
-            Github
-          </ListParagraph>
+          <ListParagraph>GitHub, Docker</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
