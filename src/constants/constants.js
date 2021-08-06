@@ -1,46 +1,51 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'AWS Distributed Systems - JAVA',
+    description: `Massively distributed applications, Cloud computing, Big data processing, Scalability considerations,Hadoop.
+
+    * Language Processing - Collocation extraction, a map-reduce program that produces the list of top-100 collocations for each decade on the Google 2-grams datasets using Amazon Elastic Map Reduce. * Cloud Computing - Manager and workers framework, based on AWS services - C2, SQS, S3.`,
+    image: '/images/1.png',
+    tags: ['Java', 'AWS', 'EC2', 'SQS','S3'],
+    source: 'https://github.com/MaorRocky/Collocation-Extraction-Amazon-EMR',
+    visit: '',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'MERN STACK - E-commerce shop',
+    description:
+      'Deployed an E-commerce website with paypal integration – used React and React-Bootstrap for the frontend, react-redux to change the state of the components, nodeJS for the backend, and MongoDB for the database',
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'NodeJS','MongoDB','express'],
+    source: 'https://github.com/MaorRocky/eCommerce',
+    visit: 'https://maorshopapp.herokuapp.com/',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'MERN STACK - stree food review',
+    description:
+      'Deployed a website for reviewing restaurants with social network features such as posting, liking, commenting, and so on. – used React for the frontend, react-redux to change the state of the components, nodeJS for the backend, and MongoDB for the database',
+    image: '/images/3.jpg',
+    tags: ['React', 'MERN','Redux','NodeJS','MongoDB'],
+    source: 'https://github.com/MaorRocky/MERN_stack_foodReview',
+    visit: 'https://young-atoll-27562.herokuapp.com/',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: 'Crypto Tracker',
+    description:
+      'A small React app for tracking the top 100 crypto-currencies, with a really nice theme.',
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React'],
+    source: 'https://github.com/MaorRocky/MaorCrypto',
+    visit: 'https://maorrocky.netlify.app/',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Started my journey' },
+  { year: 2018, text: 'Worked as a freelance developer' },
+  { year: 2019, text: 'Founded JavaScript Mastery' },
+  { year: 2020, text: 'Shared my projects with the world' },
+  { year: 2021, text: 'Started my own platform' },
 ];
